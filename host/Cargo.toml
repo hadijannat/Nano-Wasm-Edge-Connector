@@ -1,0 +1,21 @@
+[package]
+name = "host"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "nano-wasm-edge"
+path = "src/main.rs"
+
+[dependencies]
+wasmtime = { workspace = true }
+tokio = { workspace = true }
+axum = { workspace = true }
+notify = { workspace = true }
+notify-debouncer-mini = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+parking_lot = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+shared = { path = "../shared" }

@@ -1,0 +1,10 @@
+[package]
+name = "guest"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Minimal dependencies for smallest binary - no_std compatible

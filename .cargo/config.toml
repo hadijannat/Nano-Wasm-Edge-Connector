@@ -1,0 +1,8 @@
+[build]
+# Ensure consistent builds
+rustflags = ["-C", "target-cpu=native"]
+
+[target.wasm32-unknown-unknown]
+rustflags = [
+    "-C", "link-arg=-zstack-size=65536",
+]
