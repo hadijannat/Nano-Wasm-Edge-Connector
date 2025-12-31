@@ -1,5 +1,7 @@
 # Nano-Wasm Edge Connector
 
+[![CI](https://github.com/hadijannat/Nano-Wasm-Edge-Connector/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/hadijannat/Nano-Wasm-Edge-Connector/actions/workflows/ci.yml)
+
 A lightweight Rust-based Dataspace Connector using WebAssembly for dynamic policy enforcement on edge devices. Targets **<10MB RAM** operation with a single binary deployment.
 
 ## Features
