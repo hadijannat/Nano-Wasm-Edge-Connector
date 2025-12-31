@@ -1,0 +1,15 @@
+target/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+node_modules/
+dist/
+build/
+out/
